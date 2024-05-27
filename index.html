@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KonsulCerdas Pembelajaran Online</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo"><i class="fas fa-graduation-cap"></i> KonsulCerdas</div>
+        <nav>
+            <ul>
+                <li><a href="#"><i class="fas fa-book"></i> Konsulbelajar</a></li>
+                <li><a href="#"><i class="fas fa-robot"></i> robokonsul</a></li>
+                <li><a href="#"><i class="fas fa-edit"></i> Konsulujian</a></li>
+                <li><a href="#"><i class="fas fa-chalkboard-teacher"></i> Konsulkelas</a></li>
+                <li><a href="#"><i class="fas fa-university"></i> UTBK Center</a></li>
+            </ul>
+        </nav>
+        <div class="auth-buttons">
+            <a href="login.html">
+                <button class="login-btn"><i class="fas fa-sign-in-alt"></i> Masuk/Daftar</button>
+            </a>
+            <button class="subscribe-btn"><i class="fas fa-user-plus"></i> Langganan</button>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <h1>Hi, <span id="username">Squad!</span></h1>
+            <p>Mau belajar apa hari ini?</p>
+            <div class="search-bar">
+                <input type="text" placeholder="Coba cari materi belajarmu di sini">
+            </div>
+            <div class="class-selection">
+                <label for="class-select"><i class="fas fa-chalkboard"></i> Pilih Kelas:</label>
+                <select id="class-select">
+                    <option value="kelas12">Kelas 12</option>                    
+                    <option value="kelas11">Kelas 11</option>                    
+                    <option value="kelas10">Kelas 10</option>                    
+                    <option value="kelas9">Kelas 9</option>                    
+                    <option value="kelas8">Kelas 8</option>                    
+                    <option value="kelas7">Kelas 7</option>                    
+                    <option value="kelas6">Kelas 6</option>                    
+                    <option value="kelas5">Kelas 5</option>                    
+                    <option value="kelas4">Kelas 4</option>
+                </select>
+            </div>
+        </section>
+        <section class="slideshow">
+            <h2>Galeri Foto</h2>
+            <div class="slides-container">
+                <div class="slide active">
+                    <img src="img/logo1.png" alt="Slide 1">
+                </div>
+                <div class="slide">
+                    <img src="img/img4.jpg" alt="Slide 2">
+                </div>
+                <div class="slide">
+                    <img src="img/img5.png" alt="Slide 3">
+                </div>
+                <button class="prev">&#10094;</button>
+                <button class="next">&#10095;</button>
+            </div>
+        </section>
+        <section class="flash-sale">
+            <div class="flash-sale-header">
+                <h2><i class="fas fa-bolt"></i> Flash Sale</h2>
+                <a href="#"><i class="fas fa-eye"></i> Lihat Semua</a>
+            </div>
+            <div class="flash-sale-items">
+                <div class="item">
+                    <span class="favorite"><i class="fas fa-star"></i> Paling Favorit</span>
+                    <h3>Robokonsul Plus Premium 1 Tahun</h3>
+                    <div class="price">
+                        <span class="old-price">Rp 898.000</span>
+                        <span class="new-price">Rp 449.000</span>
+                    </div>
+                    <span class="discount">50%</span>
+                </div>
+                <div class="item">
+                    <span class="favorite"><i class="fas fa-star"></i> Paling Favorit</span>
+                    <h3>50 KOIN - Paket Rp5,000/Koin</h3>
+                    <div class="price">
+                        <span class="old-price">Rp 500.000</span>
+                        <span class="new-price">Rp 250.000</span>
+                    </div>
+                    <span class="discount">50%</span>
+                </div>
+                <div class="item">
+                    <span class="favorite"><i class="fas fa-star"></i> Paling Favorit</span>
+                    <h3>Robokonsul Premium 1 Tahun</h3>
+                    <div class="price">
+                        <span class="old-price">Rp 415.000</span>
+                        <span class="new-price">Rp 249.000</span>
+                    </div>
+                    <span class="discount">40%</span>
+                </div>
+                <div class="item">
+                    <span class="favorite"><i class="fas fa-star"></i> Paling Favorit</span>
+                    <h3>Robokonsul Ujian Mandiri Favorit + 5 Kuota Tryout Premium</h3>
+                    <div class="price">
+                        <span class="old-price">Rp 352.000</span>
+                        <span class="new-price">Rp 229.000</span>
+                    </div>
+                    <span class="discount">35%</span>
+                </div>
+            </div>
+        </section>
+        <section class="subjects">
+            <div class="subject"><a href="inggrismenu.html"><i class="fas fa-globe"></i> Bahasa Inggris</a></div>
+            <div class="subject"><i class="fas fa-server"></i> Administrasi Sistem Jaringan</div>
+            <div class="subject"><a href="mtkmenu.html"><i class="fas fa-globe"></i> Matematika</a></div>
+            <div class="subject"><a href="indomenu.html"><i class="fas fa-globe"></i> Bahasa Indonesia</a></div>
+            <div class="subject"><i class="fas fa-lightbulb"></i> Produk Kreatif dan Kewirausahaan</div>
+            <div class="subject"><i class="fas fa-gavel"></i> PKN</div>
+            <div class="subject"><i class="fas fa-balance-scale"></i> Yuk, Cerdas Memilih!</div>
+            <div class="subject"><i class="fas fa-th-large"></i> Bahasa Arab</div>
+            <div class="subject"><i class="fas fa-th-large"></i> Semua Pelajaran</div>
+
+            <div class="additional-text">
+                <h2><center> Konsul Cerdas - Membawa Inovasi ke Dunia Pendidikan</center></h2>
+                <justify><p>Selamat datang di Konsul Cerdas, tempat di mana pendidikan bertemu dengan inovasi. Kami tidak sekadar sebuah platform pembelajaran online, tetapi sebuah revolusi dalam cara Anda belajar. Dengan kombinasi antara teknologi canggih dan keahlian instruktur terbaik, kami membawa Anda pada perjalanan pembelajaran yang menginspirasi, menantang, dan membangun keunggulan.</p>
+                <p>Kami percaya bahwa pendidikan adalah kunci untuk menghadapi masa depan dengan percaya diri. Oleh karena itu, kami berkomitmen untuk memberikan pengalaman belajar yang transformatif, mempersiapkan Anda untuk menghadapi tantangan di dunia nyata dengan keberanian dan keterampilan yang dibutuhkan. Dari kelas interaktif hingga sumber daya pembelajaran yang komprehensif, kami menyediakan segala yang Anda butuhkan untuk mencapai potensi penuh Anda.</p>
+                <p>Berbeda dengan pendekatan konvensional, Konsul Cerdas menawarkan lebih dari sekadar pelajaran di dalam kelas. Kami membawa Anda untuk menjelajahi dunia pengetahuan dengan cara yang menyenangkan dan menarik, membangun fondasi yang kokoh untuk pertumbuhan intelektual Anda. Dengan fokus pada inovasi, kreativitas, dan kolaborasi, kami membantu Anda mengembangkan keterampilan yang relevan dan mempersiapkan Anda untuk sukses di era digital.</p>
+                <p>Selamat bergabung dengan komunitas Konsul Cerdas, di mana Anda tidak hanya belajar, tetapi juga tumbuh dan berkembang sebagai individu yang unggul. Mari bersama-sama menjelajahi potensi tak terbatas dunia pendidikan!</p>
+            </justify>
+        </div>
+            
+        </section>
+    </main>
+    <script>
+        // JavaScript to extract username from URL
+        window.onload = function() {
+            const params = new URLSearchParams(window.location.search);
+            const username = params.get('username');
+            if (username) {
+                document.getElementById('username').textContent = username;
+            }
+        };
+    </script>
+</body>
+</html>
